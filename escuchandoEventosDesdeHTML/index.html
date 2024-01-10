@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuchando eventos desde HTML</title>
+</head>
+<body>
+    <h1>Calculadora básica</h1>
+
+    <input id="numero1"/>
+    <input id="numero2"/>
+    <button id="btnsuma" onclick="realizarSuma()">Sumar</button>
+    <button id="btnresta" onclick="realizarResta()">Restar</button>
+    <button id="btnmultiplicacion" onclick="realizarMultiplicacion()">Multiplicar</button>
+    <button id="btndivision" onclick="realizarDivision()">Dividir</button>
+
+    <p>El resultado es <span id="resultado"></span></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
